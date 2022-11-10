@@ -47,8 +47,6 @@ jobs:
         with:
           push: true
           tags: |
-            ${{ env.IMAGE }}:${{ steps.prep.outputs.BUILD_ID }}
-            ${{ env.IMAGE }}:${{ steps.prep.outputs.LATEST_ID }}            
-
+            igbedo/edukate:${{ steps.prep.outputs.BUILD_ID }}
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
