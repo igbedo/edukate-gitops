@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: edukate
-          image: igbedo/edukate:1.5
+          image: igbedo/edukate
           imagePullPolicy: IfNotPresent 
           ports:
             - containerPort: 80
