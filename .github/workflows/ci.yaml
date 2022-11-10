@@ -8,12 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install the dependencies
-        run: make setup
-
-      - name: Run tests
-        run: make test
-
       - name: Generate build ID
         id: prep
         run: |
