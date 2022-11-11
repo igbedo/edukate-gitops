@@ -4,6 +4,6 @@ resources:
   - deployment.yaml
   - service.yaml
 images:
-- name: igbedo/edukate
-  newName: igbedo/edukate # {"$imagepolicy": "flux-system:edukate-gitops:name"}
-  newTag: main-cfb9d8fe-1668098704 # {"$imagepolicy": "flux-system:edukate-gitops:tag"}
+  - name: igbedo/edukate
+    newName: igbedo/edukate # {"$imagepolicy": "flux-system:edukate-gitops:name"}
+    newTag: main-b1fc45cd-1668207411 # {"$imagepolicy": "flux-system:edukate-gitops:tag"}

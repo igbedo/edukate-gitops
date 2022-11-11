@@ -1,12 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: edukate 
+  name: edukate
   namespace: default
   labels:
     app: edukate
 spec:
-  replicas: 2 
+  replicas: 2
   selector:
     matchLabels:
       app: edukate
@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: edukate
-          image: igbedo/edukate:main-cfb9d8fe-1668098704 # {"$imagepolicy": "flux-system:edukate-gitops"}
-          imagePullPolicy: IfNotPresent 
+          image: igbedo/edukate:main-b1fc45cd-1668207411 # {"$imagepolicy": "flux-system:edukate-gitops"}
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
