@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: edukate
-          image: igbedo/edukate:main-b1fc45cd-1668207411 # {"$imagepolicy": "flux-system:edukate-gitops"}
+          image: igbedo/edukate:main-327ff5e2-1668214668 # {"$imagepolicy": "flux-system:edukate-gitops"}
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
