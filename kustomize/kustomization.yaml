@@ -6,4 +6,4 @@ resources:
 images:
   - name: igbedo/edukate
     newName: igbedo/edukate # {"$imagepolicy": "flux-system:edukate-gitops:name"}
-    newTag: main-5d51408e-1672935831 # {"$imagepolicy": "flux-system:edukate-gitops:tag"}
+    newTag: main-577b6031-1684792750 # {"$imagepolicy": "flux-system:edukate-gitops:tag"}
